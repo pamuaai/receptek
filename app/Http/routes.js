@@ -17,7 +17,12 @@
 
 const Route = use('Route')
 
-Route.on('/').render('main')
+//Route.on('/').render('main')
+Route.get('/', 'RecipeController.main')
+
+
+
+
 /*Route.on('/hello').render('hello')
 
 Route.get('/narancs', function(req, res){

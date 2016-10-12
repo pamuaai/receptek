@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "MIT",
-  "description": "",
+  "description": "This repo is the pre-configured project structure to be used for creating ambitious web servers using AdonisJs.",
   "private": true,
   "dependencies": {
     "adonis-ace": "^3.0.1",
@@ -18,6 +18,7 @@
     "adonis-framework": "^3.0.1",
     "adonis-lucid": "^3.0.3",
     "adonis-middleware": "^1.0.7",
+    "sqlite3": "^3.1.6",
     "youch": "^1.0.1"
   },
   "autoload": {
@@ -25,5 +26,13 @@
   },
   "devDependencies": {
     "nodemon": "^1.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamuaai/receptek.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pamuaai/receptek/issues"
+  },
+  "homepage": "https://github.com/pamuaai/receptek#readme"
 }
